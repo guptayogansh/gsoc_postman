@@ -5,7 +5,7 @@ let app = express();
 // HomePage route that displays a Welcome message
 // can be accessed without token
 app.get("/", function(req, res) {
-  res.send("Welcome to JWT Basic test");
+  res.send("Welcome to JWT Basic");
 });
 // Registering the route to get a new token
 // In a real world scenario, the user credentials will be authenticated
